@@ -1,0 +1,56 @@
+// Congress roster — Revolution Medicines
+
+export const CONGRESS_OPTIONS = [
+  {
+    id: 'asco-2026',
+    name: 'ASCO 2026',
+    fullName: 'American Society of Clinical Oncology Annual Meeting 2026',
+    location: 'McCormick Place, Chicago, IL',
+    date: 'May 29 – Jun 2, 2026',
+    available: true,
+  },
+  {
+    id: 'aacr-2026',
+    name: 'AACR 2026',
+    fullName: 'American Association for Cancer Research Annual Meeting 2026',
+    location: 'San Diego, CA',
+    date: 'Apr 25–30, 2026',
+    available: true,
+  },
+  {
+    id: 'trend-aacr-asco',
+    name: 'Trend: AACR → ASCO',
+    fullName: 'Sentiment trend AACR 2026 to ASCO 2026',
+    location: '—',
+    date: '—',
+    available: true,
+    isTrend: true,
+  },
+  {
+    id: 'esmo-2026',
+    name: 'ESMO 2026',
+    fullName: 'European Society for Medical Oncology Congress 2026',
+    location: 'TBD',
+    date: 'September 2026',
+    available: false,
+    comingSoon: true,
+  },
+  {
+    id: 'esmo-2025',
+    name: 'ESMO 2025',
+    fullName: 'European Society for Medical Oncology Congress 2025',
+    location: 'Berlin, Germany',
+    date: 'Sep 12–16, 2025',
+    available: false,
+    comingSoon: true,
+  },
+  {
+    id: 'pancreas-2026',
+    name: 'Pancreas 2026',
+    fullName: 'International Association of Pancreatology Annual Meeting 2026',
+    location: 'TBD',
+    date: '2026',
+    available: false,
+    comingSoon: true,
+  },
+];
