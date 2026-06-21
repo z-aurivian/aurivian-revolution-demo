@@ -1,38 +1,34 @@
 // Insight-to-Impact — Vision Doc Module 2 (Insights to Action) impact view.
-// Surfaces the lineage from a captured insight → action taken → measurable
-// outcome, with timeframe and impact score.
-//
-// Default fill: Alexion (template example). Overwrite per demo.
 
 export const INSIGHT_TO_IMPACT = [
   {
     id: 'i2i-1',
-    insight: 'Community hematologists request a switching algorithm one-pager.',
-    action: 'Patient-facing Soliris→Ultomiris switching one-pager deployed to MSL field team across NA + EU5.',
-    outcome: '+18% switch-conversation rate in tracked accounts; community center inquiries up 2.1×.',
+    insight: 'Multiple MSLs report KOLs using "unprecedented" framing for RASolute 302 OS data — but asking for a concise OS/PFS narrative slide for tumor board use.',
+    action: 'OS/PFS concordance narrative deck commissioned and distributed to MSL team for tumor board presentations across NA academic centers.',
+    outcome: 'Deck adopted by 13 of 16 Tier 1 PDAC KOLs within 3 weeks of ASCO; 3 KOLs used it in published commentary and social posts amplifying RevMed narrative.',
+    timeframe: '3 weeks',
+    impactScore: 9,
+    relatedInsight: 'AI2',
+    relatedMO: 'MO1',
+  },
+  {
+    id: 'i2i-2',
+    insight: 'Community oncologist MSL reports: ~40% of sites lack NGS panel coverage for all RAS variants — patients are being identified by KRAS G12C testing only.',
+    action: 'RAS comprehensive testing guide (CDx reimbursement + NGS panel selection) deployed to community oncology MSL team. Partnered with FoundationOne and Guardant.',
+    outcome: 'RAS profiling rate in 4 tracked community centers increased from 61% to 83% of new PDAC patients within 6 weeks; 2 centers added comprehensive RAS panel to standard of care protocol.',
     timeframe: '6 weeks',
     impactScore: 8,
     relatedInsight: 'AI1',
     relatedMO: 'MO2',
   },
   {
-    id: 'i2i-2',
-    insight: 'Recurring physician concern about C3-mediated extravascular hemolysis.',
-    action: 'BTH evidence pack commissioned; advisory board scheduled for proximal-complement positioning.',
-    outcome: 'Slide deck adopted by 11 of 14 KOLs in 2026 Q1; competitor narrative neutralized in 3 ad-board markets.',
-    timeframe: '8 weeks',
+    id: 'i2i-3',
+    insight: 'NSCLC MSL team reports Borghaei\'s public skepticism about multi-selective vs G12C-selective is being cited by thoracic oncologists at Tier 2 accounts.',
+    action: 'Multi-selective mechanistic differentiation scientific exchange module created; MSLs briefed with Borghaei-specific FVQ framework and response talking points.',
+    outcome: 'Scientific exchange conducted in 7 accounts within 4 weeks. Borghaei engagement meeting scheduled. 5 of 7 HCPs rated mechanistic rationale "compelling" post-exchange.',
+    timeframe: '4 weeks',
     impactScore: 7,
     relatedInsight: 'AI3',
     relatedMO: 'MO3',
-  },
-  {
-    id: 'i2i-3',
-    insight: 'Pediatric aHUS dosing confidence gap surfaced via MSL interactions.',
-    action: 'Targeted scientific-exchange session with pediatric hematology centers; registry data refresh distributed.',
-    outcome: 'Awareness ladder progression: 27 HCPs moved Aware → Knowledgeable; 4 pediatric centers initiated protocol updates.',
-    timeframe: '10 weeks',
-    impactScore: 6,
-    relatedInsight: 'AI5',
-    relatedMO: 'MO1',
   },
 ];

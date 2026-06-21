@@ -12,3 +12,4 @@ export const CLIENT = {
 };
 
 export const CAPTURE_APP_URL = 'https://aurivian-revolution-capture-app.vercel.app';
+export const PULSE_BRIEF_URL = 'pulse_revmed_brief.html';

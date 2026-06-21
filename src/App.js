@@ -14,7 +14,7 @@ import AuriSidebar from './components/AuriSidebar';
 import ArtifactLibrary from './components/ArtifactLibrary';
 import InsightJourney from './components/InsightJourney';
 import Vega from './components/Vega';
-import { PRODUCT_OPTIONS, CONGRESS_OPTIONS, OUTCOME_VOLUME, CAPTURE_APP_URL } from './config';
+import { PRODUCT_OPTIONS, CONGRESS_OPTIONS, OUTCOME_VOLUME, CAPTURE_APP_URL, PULSE_BRIEF_URL } from './config';
 import './App.css';
 
 const THEME_KEY = 'aurivian.theme';
@@ -236,12 +236,23 @@ function Shell() {
                 <span>{item.label}</span>
               </NavLink>
             ))}
+            {PULSE_BRIEF_URL && (
+              <a
+                href={PULSE_BRIEF_URL}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-2.5 px-3 py-2 rounded-lg text-sm font-medium text-auri-muted hover:text-auri-text hover:bg-auri-card transition-all mt-2"
+              >
+                <ExternalLink size={15} />
+                <span>Pulse Brief</span>
+              </a>
+            )}
             {CAPTURE_APP_URL && (
               <a
                 href={CAPTURE_APP_URL}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-2.5 px-3 py-2 rounded-lg text-sm font-medium text-auri-muted hover:text-auri-text hover:bg-auri-card transition-all"
+                className="flex items-center gap-2.5 px-3 py-2 rounded-lg text-sm font-medium bg-auri-text text-auri-bg hover:opacity-90 transition-all mt-1"
               >
                 <ExternalLink size={15} />
                 <span>Congress Capture</span>
