@@ -252,7 +252,7 @@ function Shell() {
                 href={CAPTURE_APP_URL}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-2.5 px-3 py-2 rounded-lg text-sm font-medium bg-auri-text text-auri-bg hover:opacity-90 transition-all mt-1"
+                className="flex items-center gap-2.5 px-3 py-2 rounded-lg text-sm font-medium transition-all text-auri-muted hover:text-auri-text hover:bg-auri-card"
               >
                 <ExternalLink size={15} />
                 <span>Congress Capture</span>
